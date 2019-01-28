@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
     s.source       = { :git => "https://github.com/freedom6xiaobai/BPTestRepository.git", :tag => s.version.to_s, :submodules => true}
 
     s.requires_arc  = true
-    s.source_files  = 'runtiime/*'
+    s.source_files  = 'runtime/*'
     #s.public_header_files = 'runtime/TFRuntimeManager.h'
 
 end
