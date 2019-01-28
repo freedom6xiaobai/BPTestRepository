@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     s.license       = "MIT"
     # s.license    = { :type => "MIT", :file => "FILE_LICENSE" }
     s.author       = {"baipeng" => "freedomjustice66@gmail.com"}
-    s.source       = { :git => "https://github.com/freedom6xiaobai/BPTestRepository.git", :tag => s.version, :commit => "da5d256"}
+    s.source       = { :git => "https://github.com/freedom6xiaobai/BPTestRepository.git", :tag => s.version}
     s.requires_arc  = true
     s.source_files  = 'runtiime/*'
     #s.public_header_files = 'runtime/TFRuntimeManager.h'
